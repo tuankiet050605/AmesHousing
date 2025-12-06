@@ -22,6 +22,14 @@ Thông qua **Data Storytelling**, nhóm thể hiện rõ **sự khác biệt v�
 
 ---
 
+## Bộ dữ liệu
+
+- **Tên:** Ames Housing Dataset  
+- **Nguồn:** Kaggle – House Prices: Advanced Regression Techniques  
+- **Số dòng:** ~2930 | **Số cột:** ~82 | **Target:** `SalePrice` (USD)
+
+---
+
 ## Cấu trúc dự án
 
 | Notebook | Mô tả |
@@ -33,7 +41,7 @@ Thông qua **Data Storytelling**, nhóm thể hiện rõ **sự khác biệt v�
 
 ---
 
-## Kết quả mô hình
+## Kết quả đánh giá
 
 Nhóm tiến hành đánh giá mô hình **Linear Regression** trên hai tập dữ liệu:
 
@@ -52,14 +60,6 @@ Nhóm tiến hành đánh giá mô hình **Linear Regression** trên hai tập d
 ---
 
 > Ghi chú: *Kết quả được trích xuất trực tiếp từ notebook `Data_Processing.ipynb` trong phần so sánh dữ liệu thô và dữ liệu sau xử lý.*
-
----
-
-## Bộ dữ liệu
-
-- **Tên:** Ames Housing Dataset  
-- **Nguồn:** Kaggle – House Prices: Advanced Regression Techniques  
-- **Số dòng:** ~2930 | **Số cột:** ~82 | **Target:** `SalePrice` (USD)
 
 ---
 
