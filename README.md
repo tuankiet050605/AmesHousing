@@ -33,6 +33,28 @@ Thông qua **Data Storytelling**, nhóm thể hiện rõ **sự khác biệt v�
 
 ---
 
+## Kết quả mô hình
+
+Nhóm tiến hành đánh giá mô hình **Linear Regression** trên hai tập dữ liệu:
+
+| Phiên bản dữ liệu | R² (↑) | MAE (↓) | RMSE (↓) | Nhận xét |
+|--------------------|--------|----------|-----------|-----------|
+| **Raw (chưa xử lý)** | 0.85 | 20,834.50 | 32,940.98 | Mô hình học được xu hướng tổng thể nhưng sai số cao do dữ liệu chưa làm sạch, còn outlier và lệch phân phối. |
+| **Clean (đã xử lý)** | **0.91** | **9,640.36** | **22,775.76** | Sau khi xử lý (loại outlier, log-transform, imputation, scaling, feature engineering), độ chính xác mô hình tăng rõ rệt, sai số giảm hơn **30%**. |
+
+### Nhận định
+- Việc **chuẩn bị dữ liệu đúng cách** giúp cải thiện đáng kể hiệu năng mô hình.  
+- Sự khác biệt giữa “Raw” và “Clean” thể hiện rõ qua các chỉ số:
+  - **R² tăng từ 0.85 → 0.91** (mô hình giải thích được nhiều phương sai hơn).  
+  - **MAE và RMSE giảm mạnh** → mô hình dự đoán giá nhà sát thực tế hơn.  
+- Đây chính là minh chứng cụ thể cho **sức mạnh của Data Preparation** – làm sạch, biến đổi và chuẩn hóa dữ liệu là bước quan trọng nhất trong chuỗi Machine Learning.
+
+---
+
+> Ghi chú: *Kết quả được trích xuất trực tiếp từ notebook `Data_Processing.ipynb` trong phần so sánh dữ liệu thô và dữ liệu sau xử lý.*
+
+---
+
 ## Bộ dữ liệu
 
 - **Tên:** Ames Housing Dataset  
