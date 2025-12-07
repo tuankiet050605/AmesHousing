@@ -128,7 +128,7 @@ jupyter notebook
 ```
 Mở:  
 - `phân tích và xử lý dữ liệu.ipynb`  
-- `Data_Processing.ipynb`
+- `chart for comparison and report.ipynb`
 
 ---
 
