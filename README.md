@@ -22,6 +22,14 @@ Thông qua **Data Storytelling**, nhóm thể hiện rõ **sự khác biệt v�
 
 ---
 
+## Cấu trúc github
+
+- **Ames Housing.csv**: Bộ dữ liệu được sử dụng
+- **Group-2-Data-Preparation-and-Visualization:** Report chi tiết bao gồm Data Storytelling và Phân tích kĩ thuật
+- **full_workflow:** Explore Data Analysis, Data Preprocessing
+- **visualization:** Data Visualization
+- **requirement:** pip install -r requirement.txt
+
 ## Bộ dữ liệu
 
 - **Tên:** Ames Housing Dataset  
@@ -59,7 +67,7 @@ Nhóm tiến hành đánh giá mô hình **Linear Regression** trên hai tập d
 
 ---
 
-> Ghi chú: *Kết quả được trích xuất trực tiếp từ notebook `Data_Processing.ipynb` trong phần so sánh dữ liệu thô và dữ liệu sau xử lý.*
+> Ghi chú: *Kết quả được trích xuất trực tiếp từ notebook `visualization.ipynb` trong phần so sánh dữ liệu thô và dữ liệu sau xử lý.*
 
 ---
 
