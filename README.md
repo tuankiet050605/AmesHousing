@@ -45,7 +45,7 @@ Thông qua **Data Storytelling**, nhóm thể hiện rõ **sự khác biệt v�
 | **full_workflow.ipynb** | Phần **EDA** – khám phá dữ liệu, trực quan hóa phân phối, phát hiện outlier, phân tích tương quan, log-transform `SalePrice`. |
 | **visualization.ipynb** | **Notebook so sánh từng bước** (*before/after*) của quy trình **Data Preparation**. Mỗi phần đều trình bày song song kết quả **trước** và **sau** xử lý: làm sạch dữ liệu thiếu, mã hóa biến phân loại, chuẩn hóa, tạo biến `TotalSF`, và **so sánh tác động** lên trực quan hóa/insights và kết quả mô hình đơn giản. |
 
-> Ghi chú: **chart for comparison and report.ipynb** được thiết kế để **minh họa tác động của từng kỹ thuật xử lý** — không chỉ đưa ra pipeline cuối cùng, mà còn chỉ ra **từng bước cải thiện** so với dữ liệu ban đầu. Ngoài ra **chart for comparison and report.ipynb** còn dùng để vẽ một số biểu đồ dùng cho phần trình bày về dự án (slide/report).
+> Ghi chú: **visualization.ipynb** được thiết kế để **minh họa tác động của từng kỹ thuật xử lý** — không chỉ đưa ra pipeline cuối cùng, mà còn chỉ ra **từng bước cải thiện** so với dữ liệu ban đầu. Ngoài ra **visualization.ipynb** còn dùng để vẽ một số biểu đồ dùng cho phần trình bày về dự án (slide/report).
 
 ---
 
